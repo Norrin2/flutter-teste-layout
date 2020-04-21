@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'favoritos.dart';
+
 Widget secaoTitulo = Container(
   padding: const EdgeInsets.all(32),
   child: Row(
@@ -29,11 +31,7 @@ Widget secaoTitulo = Container(
         ),
       ),
       /*3*/
-      Icon(
-        Icons.star,
-        color: Colors.red[500],
-      ),
-      Text('41'),
+      FavoriteWidget(),
     ],
   ),
 );
