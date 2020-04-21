@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-import 'package:layout_flutter/secao-botoes.dart';
-import 'package:layout_flutter/secao-texto.dart';
-import 'package:layout_flutter/secao-titulo.dart';
+import 'package:layout_flutter/detalhes/secao-botoes.dart';
+import 'package:layout_flutter/detalhes/secao-texto.dart';
+import 'package:layout_flutter/detalhes/secao-titulo.dart';
 
-class Home extends StatelessWidget {
-  const Home({
+class Detalhes extends StatelessWidget {
+  const Detalhes({
     Key key,
     @required this.corBotes,
   }) : super(key: key);
